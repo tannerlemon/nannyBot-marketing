@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "sharpsansblack";
+  src: url("/SharpSans/SharpSansDispNo1-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "sharpsansbold";
+  src: url("/SharpSans/SharpSansDispNo1-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "sharpsansbook";
+  src: url("/SharpSans/SharpSansDispNo1-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "sharpsansextrabold";
+  src: url("/SharpSans/SharpSansDispNo1-Extrabold.otf") format("opentype");
+}
+@font-face {
+  font-family: "sharpsanslight";
+  src: url("/SharpSans/SharpSansDispNo1-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "sharpsansmedium";
+  src: url("/SharpSans/SharpSansDispNo1-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "sharpsanssemibold";
+  src: url("/SharpSans/SharpSansDispNo1-Semibold.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6184d8;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #533a71;
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  font-family: "sharpsansbold";
+  font-size: 36px;
+}
+
+.title {
+  padding: 26px 36px;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-family: "sharpsansextrabold";
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 14px;
+    line-height: 52px;
+  }
+
+  h2 {
+    font-family: "sharpsansmedium";
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .page-wrapper {
+    padding: 35px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .button {
+    padding: 22px 44px;
+    background-color: #f0f465;
+    font-size: 36px;
+    font-family: "sharpsansextrabold";
+    color: #1f152b;
+    border-radius: 34px;
+    transition: 0.7s ease;
+  }
+
+  .button:hover {
+    padding: 30px 52px;
+  }
+
+  .hero-img {
+    background-image: url("/imgs/mobile/hero-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-two {
+    background: #50c5b7;
+    width: 100%;
+    margin-top: -350px;
+    z-index: -1000;
+    display: block;
+    padding-top: 400px;
+  }
+
+  .timer-img {
+    background-image: url("/imgs/mobile/time-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-three {
+    background: #533a71;
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1000;
+    display: block;
+    padding-top: 250px;
+  }
+
+  .materials-img {
+    background-image: url("/imgs/mobile/search-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-four {
+    background: #6184d8;
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1000;
+    display: block;
+    padding-top: 250px;
+  }
+
+  .spinner-img {
+    background-image: url("/imgs/mobile/spinner-mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 50vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-five {
+    background: #f0f465;
+    width: 100%;
+    margin-top: -250px;
+    z-index: -1000;
+    display: block;
+    padding-top: 250px;
+    text-align: center;
+    padding-bottom: 150px;
+  }
+
+  .hero-five h1,
+  .hero-five h2 {
+    color: #533a71;
+  }
+
+  .hero-five .button {
+    background: #533a71;
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  h1 {
+    font-family: "sharpsansextrabold";
+    font-size: 90px;
+    text-align: center;
+    padding-bottom: 34px;
+    line-height: 83px;
+  }
+
+  h2 {
+    font-family: "sharpsansmedium";
+    text-align: center;
+    margin-bottom: 64px;
+    font-size: 24px;
+  }
+
+  .page-wrapper {
+    padding: 35px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .button {
+    padding: 22px 44px;
+    background-color: #f0f465;
+    font-size: 36px;
+    font-family: "sharpsansextrabold";
+    color: #1f152b;
+    border-radius: 34px;
+    transition: 0.7s ease;
+  }
+
+  .button:hover {
+    padding: 30px 52px;
+  }
+
+  .hero-img {
+    background-image: url("/imgs/hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-two {
+    background: #50c5b7;
+    width: 100%;
+    margin-top: -350px;
+    z-index: -1000;
+    display: block;
+    padding-top: 400px;
+  }
+
+  .timer-img {
+    background-image: url("/imgs/time.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-three {
+    background: #533a71;
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1000;
+    display: block;
+    padding-top: 250px;
+  }
+
+  .materials-img {
+    background-image: url("/imgs/search.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 100vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-four {
+    background: #6184d8;
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1000;
+    display: block;
+    padding-top: 250px;
+  }
+
+  .spinner-img {
+    background-image: url("/imgs/spinner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 50vh;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+  }
+
+  .hero-five {
+    background: #f0f465;
+    width: 100%;
+    margin-top: -250px;
+    z-index: -1000;
+    display: block;
+    padding-top: 250px;
+    text-align: center;
+    padding-bottom: 150px;
+  }
+
+  .hero-five h1,
+  .hero-five h2 {
+    color: #533a71;
+  }
+
+  .hero-five .button {
+    background: #533a71;
+    color: #fff;
+  }
+}
